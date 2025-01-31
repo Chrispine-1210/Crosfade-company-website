@@ -10,6 +10,7 @@ body {
 a {
     color: #4F84C4;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 a:hover,
@@ -50,14 +51,12 @@ h6 {
 
 
 
-/**************************************/
-/********** Back to Top CSS ***********/
-/**************************************/
+/*** Back to Top CSS ***/
 .back-to-top {
     position: fixed;
     display: none;
     background: #4F84C4;
-    color: #ffffff;
+    color: #81a119;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -73,11 +72,7 @@ h6 {
     color: #ffffff;
 }
 
-
-
-/**************************************/
-/************** Nav CSS ***************/
-/**************************************/
+/*** Nav CSS ***/
 #nav {
     position: fixed;
     top: 0;
