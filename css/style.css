@@ -1,198 +1,203 @@
-/* Add these styles to your style.css */
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
 
 /* Navbar styles */
 .navbar {
-  /* Add your styles here */
+  background-color: #0f3d4f;
+  padding: 1rem;
 }
-.navbar-brand {
-  /* Add your styles here */
+
+.navbar-brand, .nav-link, .dropdown-item {
+  color: #e6fb17;
+  text-decoration: none;
 }
-.navbar-toggler {
-  /* Add your styles here */
-}
-.navbar-toggler-icon {
-  /* Add your styles here */
-}
-.collapse {
-  /* Add your styles here */
-}
-.navbar-collapse {
-  /* Add your styles here */
-}
-.justify-content-between {
-  /* Add your styles here */
-}
-.navbar-nav {
-  /* Add your styles here */
-}
-.nav-item {
-  /* Add your styles here */
-}
-.nav-link {
-  /* Add your styles here */
-}
-.dropdown {
-  /* Add your styles here */
-}
-.dropdown-toggle {
-  /* Add your styles here */
-}
-.dropdown-menu {
-  /* Add your styles here */
-}
-.dropdown-item {
-  /* Add your styles here */
+
+.nav-link:hover, .dropdown-item:hover {
+  color: #0489b2;
 }
 
 /* Carousel styles */
 .carousel {
-  /* Add your styles here */
+  margin-bottom: 2rem;
 }
+
 .carousel-inner {
-  /* Add your styles here */
+  background-color: #e6fb17;
 }
+
 .carousel-item {
-  /* Add your styles here */
-}
-.row {
-  /* Add your styles here */
-}
-.align-items-center {
-  /* Add your styles here */
-}
-.col-md-6 {
-  /* Add your styles here */
-}
-.img-fluid {
-  /* Add your styles here */
+  transition: transform 0.5s ease;
 }
 
-/* Service styles */
+/* Services section */
 .service-icon {
-  /* Add your styles here */
+  color: #0489b2;
+  font-size: 2rem;
 }
+
 .service-detail {
-  /* Add your styles here */
+  color: #0f3d4f;
 }
 
-/* Text center */
-.text-center {
-  /* Add your styles here */
-}
-
-/* Pricing styles */
+/* Pricing section */
 .price-content {
-  /* Add your styles here */
+  background-color: #f9f9f9;
+  padding: 2rem;
 }
+
 .price-plan {
-  /* Add your styles here */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
-.price-title {
-  /* Add your styles here */
+
+.price-title, .price-amount {
+  color: #0f3d4f;
 }
-.price-amount {
-  /* Add your styles here */
-}
+
 .price-details {
-  /* Add your styles here */
+  color: #0489b2;
 }
 
-/* Skills styles */
+/* Skills section */
 .skill-item {
-  /* Add your styles here */
+  margin-bottom: 1rem;
 }
+
 .skill-name {
-  /* Add your styles here */
+  font-weight: bold;
 }
+
 .progress {
-  /* Add your styles here */
+  height: 1rem;
+  background-color: #ddd;
 }
+
 .progress-bar {
-  /* Add your styles here */
+  background-color: #0489b2;
 }
 
-/* Counters styles */
-.counters {
-  /* Add your styles here */
-}
-
-/* Portfolio styles */
+/* Portfolio section */
 .portfolio-container {
-  /* Add your styles here */
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .portfolio-item {
-  /* Add your styles here */
+  flex: 1 1 calc(33.333% - 2rem);
+  margin: 1rem;
 }
+
 .portfolio-img {
-  /* Add your styles here */
+  width: 100%;
+  height: auto;
 }
-.link-preview {
-  /* Add your styles here */
-}
-.link-details {
-  /* Add your styles here */
-}
+
 .portfolio-info {
-  /* Add your styles here */
+  background-color: #0f3d4f;
+  color: #e6fb17;
+  padding: 1rem;
+  text-align: center;
 }
 
-/* Team styles */
+/* Team section */
 .team-item {
-  /* Add your styles here */
+  text-align: center;
 }
+
 .team-img {
-  /* Add your styles here */
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
-.team-social {
-  /* Add your styles here */
-}
+
 .team-info {
-  /* Add your styles here */
+  background-color: #0489b2;
+  color: white;
+  padding: 1rem;
 }
 
-/* Testimonials styles */
+/* Testimonials section */
 .testimonials-carousel {
-  /* Add your styles here */
+  background-color: #f9f9f9;
+  padding: 2rem;
 }
+
 .testimonial-item {
-  /* Add your styles here */
+  text-align: center;
 }
+
 .testimonial-img {
-  /* Add your styles here */
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
+
 .testimonial-text {
-  /* Add your styles here */
+  font-style: italic;
 }
 
-/* Clients styles */
-.clients-carousel {
-  /* Add your styles here */
-}
-
-/* Contact styles */
+/* Contact section */
 .contactForm {
-  /* Add your styles here */
+  background-color: #f9f9f9;
+  padding: 2rem;
 }
-.form-row {
-  /* Add your styles here */
+
+.form-row, .form-group {
+  margin-bottom: 1rem;
 }
-.form-group {
-  /* Add your styles here */
-}
+
 .form-control {
-  /* Add your styles here */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
 }
 
 /* Footer styles */
-.footer-links {
-  /* Add your styles here */
+.footer-links a {
+  color: #0489b2;
+  text-decoration: none;
 }
-.footer-contact {
-  /* Add your styles here */
+
+.footer-contact, .footer-newsletter {
+  color: #0f3d4f;
 }
-.footer-newsletter {
-  /* Add your styles here */
-}
+
 .back-to-top {
-  /* Add your styles here */
+  background-color: #0489b2;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+}
+
+.back-to-top:hover {
+  background-color: #0f3d4f;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #0489b2;
+}
+
+.bg-primary {
+  background-color: #0489b2;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #0f3d4f;
+  color: #e6fb17;
 }
