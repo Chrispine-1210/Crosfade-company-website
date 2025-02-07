@@ -12,11 +12,15 @@ body {
 .navbar {
   background-color: #0f3d4f;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-brand, .nav-link, .dropdown-item {
   color: #e6fb17;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover, .dropdown-item:hover {
@@ -50,12 +54,15 @@ body {
 .price-content {
   background-color: #f9f9f9;
   padding: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .price-plan {
   border: 1px solid #ddd;
   padding: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .price-title, .price-amount {
@@ -78,21 +85,28 @@ body {
 .progress {
   height: 1rem;
   background-color: #ddd;
+  border-radius: 5px;
 }
 
 .progress-bar {
   background-color: #0489b2;
+  height: 100%;
+  border-radius: 5px;
 }
 
 /* Portfolio section */
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-item {
   flex: 1 1 calc(33.333% - 2rem);
   margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .portfolio-img {
@@ -110,6 +124,7 @@ body {
 /* Team section */
 .team-item {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .team-img {
@@ -131,6 +146,7 @@ body {
 
 .testimonial-item {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .testimonial-img {
@@ -156,16 +172,24 @@ body {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* Footer styles */
+.footer {
+  background-color: #0f3d4f;
+  color: #e6fb17;
+  padding: 2rem;
+  text-align: center;
+}
+
 .footer-links a {
   color: #0489b2;
   text-decoration: none;
 }
 
-.footer-contact, .footer-newsletter {
-  color: #0f3d4f;
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
 .back-to-top {
