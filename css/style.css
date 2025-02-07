@@ -1,16 +1,16 @@
 /* General styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 /* Navbar styles */
 .navbar {
-  background-color: #0f3d4f;
+  background-color: #1a1a1a;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -18,13 +18,13 @@ body {
 }
 
 .navbar-brand, .nav-link, .dropdown-item {
-  color: #e6fb17;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover, .dropdown-item:hover {
-  color: #0489b2;
+  color: #00aaff;
 }
 
 /* Carousel styles */
@@ -33,7 +33,7 @@ body {
 }
 
 .carousel-inner {
-  background-color: #e6fb17;
+  background-color: #00aaff;
 }
 
 .carousel-item {
@@ -42,20 +42,21 @@ body {
 
 /* Services section */
 .service-icon {
-  color: #0489b2;
+  color: #00aaff;
   font-size: 2rem;
 }
 
 .service-detail {
-  color: #0f3d4f;
+  color: #333;
 }
 
 /* Pricing section */
 .price-content {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding: 2rem;
   display: flex;
   justify-content: space-around;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .price-plan {
@@ -66,11 +67,11 @@ body {
 }
 
 .price-title, .price-amount {
-  color: #0f3d4f;
+  color: #333;
 }
 
 .price-details {
-  color: #0489b2;
+  color: #00aaff;
 }
 
 /* Skills section */
@@ -89,7 +90,7 @@ body {
 }
 
 .progress-bar {
-  background-color: #0489b2;
+  background-color: #00aaff;
   height: 100%;
   border-radius: 5px;
 }
@@ -107,6 +108,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .portfolio-img {
@@ -115,8 +117,8 @@ body {
 }
 
 .portfolio-info {
-  background-color: #0f3d4f;
-  color: #e6fb17;
+  background-color: #1a1a1a;
+  color: #ffffff;
   padding: 1rem;
   text-align: center;
 }
@@ -133,15 +135,16 @@ body {
 }
 
 .team-info {
-  background-color: #0489b2;
+  background-color: #00aaff;
   color: white;
   padding: 1rem;
 }
 
 /* Testimonials section */
 .testimonials-carousel {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-item {
@@ -160,8 +163,9 @@ body {
 
 /* Contact section */
 .contactForm {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-row, .form-group {
@@ -177,14 +181,14 @@ body {
 
 /* Footer styles */
 .footer {
-  background-color: #0f3d4f;
-  color: #e6fb17;
+  background-color: #1a1a1a;
+  color: #ffffff;
   padding: 2rem;
   text-align: center;
 }
 
 .footer-links a {
-  color: #0489b2;
+  color: #00aaff;
   text-decoration: none;
 }
 
@@ -193,7 +197,7 @@ body {
 }
 
 .back-to-top {
-  background-color: #0489b2;
+  background-color: #00aaff;
   color: white;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -204,7 +208,7 @@ body {
 }
 
 .back-to-top:hover {
-  background-color: #0f3d4f;
+  background-color: #1a1a1a;
 }
 
 /* Utility classes */
@@ -213,15 +217,15 @@ body {
 }
 
 .text-primary {
-  color: #0489b2;
+  color: #00aaff;
 }
 
 .bg-primary {
-  background-color: #0489b2;
+  background-color: #00aaff;
   color: white;
 }
 
 .bg-secondary {
-  background-color: #0f3d4f;
-  color: #e6fb17;
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
