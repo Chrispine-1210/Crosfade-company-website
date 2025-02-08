@@ -92,10 +92,6 @@
 
 }
 
-
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -480,57 +476,6 @@ body.nav-active { overflow: hidden; }
   bottom: 20px;
   left: 24px;
 }
-
-
-/***** General CSS****/
-body {
-    color: #757575;
-    font-family: 'Raleway', sans-serif;
-    background: #0489b2;
-}
-
-a {
-    color: #4F84C4;
-    transition: 0.3s;
-}
-
-a:hover,
-a:active,
-a:focus {
-    color: #666666;
-    outline: none;
-    text-decoration: none;
-}
-
-p {
-    color: #757575;
-    padding: 0;
-    margin: 0 0 15px 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-    color: #888888;
-    margin: 0 0 15px 0;
-    padding: 0;
-}
-
-h4,
-h5,
-h6 {
-    font-weight: 400;
-}
-
-.mt-100 {
-    margin-top: 100px;
-}
-
-
 
 /***** Back to Top CSS ****/
 .back-to-top {
