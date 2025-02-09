@@ -194,7 +194,8 @@ body.nav-active { overflow: hidden; }
 
 #nav .navbar-brand img {
     position: absolute;
-    max-height: 60px;
+    max-height: 90px;
+    width: 40px;
     margin-top: -27px;
     transition: all .5s;
 }
